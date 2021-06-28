@@ -3,35 +3,19 @@
 #### 介绍
 模仿 Microsoft ToDo List 的简单界面实现。
 
-#### 软件架构
-软件架构说明
+#### 软件说明
 
+参考B站 BV1HJ411w7eN , 跟着UP主入门  WPF 项目。
+实现：
+1. 动态数据绑定
+2. 数据触发器的使用
+3. 数据模板的使用
+4. 转换器的使用
 
-#### 安装教程
+额外优化视频内未提及的功能：
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 切换事项内容时，在展开内容状态，直接切换内容显示
+2. 删除事项功能
+3. 切换目录时，开展内容自动关闭
+4. 目录栏统计事项计数的布局完善，与微软的样式一致
+5. 右上角按钮事件响应
